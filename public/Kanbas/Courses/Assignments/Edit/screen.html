@@ -1,151 +1,165 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Assignments Screen</title>
+    <title>Kanbas Courses Assignments Screen</title>
   </head>
   <body>
-    <table>
+    <table width="100%">
       <tbody>
         <tr>
           <td valign="top">
             <ul>
-              <li><a href="https://www.lipsum.com">Account</a></li>
-              <li><a href="https://www.lipsum.com">Dashboard</a></li>
-              <li><a href="https://www.lipsum.com">Courses</a></li>
-              <li><a href="https://www.lipsum.com">Calendar</a></li>
-              <li><a href="https://www.lipsum.com">Inbox</a></li>
-              <li><a href="https://www.lipsum.com">History</a></li>
-              <li><a href="https://www.lipsum.com">Studio</a></li>
-              <li><a href="https://www.lipsum.com">Commons</a></li>
-              <li><a href="https://www.lipsum.com">Help</a></li>
+              <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Inbox</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Studio</a></li>
+              <li><a href="#">Commons</a></li>
+              <li><a href="#">Help</a></li>
             </ul>
           </td>
 
           <td valign="top">
             <ul>
-              <li><a href="https://www.lipsum.com">Home</a></li>
-              <li><a href="https://www.lipsum.com">Modules</a></li>
-              <li><a href="https://www.lipsum.com">Piazza</a></li>
-              <li><a href="https://www.lipsum.com">Zoom Meetings</a></li>
-              <li><a href="https://www.lipsum.com">Assignments</a></li>
-              <li><a href="https://www.lipsum.com">Quizzes</a></li>
-              <li><a href="https://www.lipsum.com">Grades</a></li>
-              <li><a href="https://www.lipsum.com">People</a></li>
-              <li><a href="https://www.lipsum.com">Panopto Video</a></li>
-              <li><a href="https://www.lipsum.com">Discussions</a></li>
-              <li><a href="https://www.lipsum.com">Announcements</a></li>
-              <li><a href="https://www.lipsum.com">Pages</a></li>
-              <li><a href="https://www.lipsum.com">Files</a></li>
-              <li><a href="https://www.lipsum.com">Rubrics</a></li>
-              <li><a href="https://www.lipsum.com">Outcomes</a></li>
-              <li><a href="https://www.lipsum.com">Collaborations</a></li>
-              <li><a href="https://www.lipsum.com">Syllabus</a></li>
-              <li><a href="https://www.lipsum.com">Settings</a></li>
+              <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+              <li><a href="#">Modules</a></li>
+              <li><a href="#">Piazza</a></li>
+              <li><a href="#">Zoom Meetings</a></li>
+              <li>
+                <a href="/Kanbas/Courses/Assignments/screen.html"
+                  >Assignments</a
+                >
+              </li>
+              <li><a href="#">Quizzes</a></li>
+              <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+              <li><a href="#">People</a></li>
+              <li><a href="#">Panopto Video</a></li>
+              <li><a href="#">Discussions</a></li>
+              <li><a href="#">Announcements</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Files</a></li>
+              <li><a href="#">Rubrics</a></li>
+              <li><a href="#">Outcomes</a></li>
+              <li><a href="#">Collaborations</a></li>
+              <li><a href="#">Syllabus</a></li>
+              <li><a href="#">Settings</a></li>
             </ul>
           </td>
 
-          <td valign="top"></td>
-          <form>
-            <select id="select-grading">
-              <option selectedvalue="SpeedGrader">SpeedGrader</option>
-            </select>
-          </form>
-          <h3>Assignment Name</h3>
-          <form id="textarea">
-            <input
-              id="text-fields-assignment-name"
-              value="A1 - ENV + HTML"
-            /><br /><br />
-            <textarea cols="21" rows="2">
-This is the assignment description.</textarea
-            ><br /><br />
-            <label for="text-fields-pts">Points</label><br />
-            <input id="text-fields-pts" value="100" /><br /><br />
-            <label for="select-assignment-group">Assignment Group</label><br />
-            <select id="select-assignment-group">
-              <option selectedvalue="ASSIGNMENTS">ASSIGNMENTS</option></select
-            ><br /><br />
-            <label for="select-display-grade">Display Grade as</label><br />
-            <select id="select-display-grade">
-              <option selectedvalue="Percentage">Percentage</option></select
-            ><br /><br />
-
-            <label for="select-submission-type">Submission Type</label><br />
-            <select id="select-submission-type">
-              <option selectedvalue="Online">Online</option></select
-            ><br /><br />
-
-            <label>Online Entry Options</label>
+          <td valign="top">
             <br />
-            <input
-              type="checkbox"
-              value="TEXT ENTRY"
-              name="check-online-entry"
-              id="chkbox-txt-entry"
-            />
-            <label for="chkbox-txt-entry">Text Entry</label><br />
+            <form>
+              <select id="select-grading">
+                <option selectedvalue="SpeedGrader">SpeedGrader</option>
+              </select>
+            </form>
+            <hr />
+            <h3>Assignment Name</h3>
+            <form id="textarea">
+              <input
+                id="text-fields-assignment-name"
+                value="A1 - ENV + HTML"
+              /><br /><br />
+              <textarea cols="21" rows="2">
+This is the assignment description.</textarea
+              ><br /><br />
+              <label for="text-fields-pts">Points</label><br />
+              <input id="text-fields-pts" value="100" /><br /><br />
+              <label for="select-assignment-group">Assignment Group</label
+              ><br />
+              <select id="select-assignment-group">
+                <option selectedvalue="ASSIGNMENTS">ASSIGNMENTS</option></select
+              ><br /><br />
+              <label for="select-display-grade">Display Grade as</label><br />
+              <select id="select-display-grade">
+                <option selectedvalue="Percentage">Percentage</option></select
+              ><br /><br />
 
-            <input
-              type="checkbox"
-              value="WEBSITE URL"
-              name="check-online-entry"
-              id="chkbox-website"
-            />
-            <label for="chkbox-website">Website URL</label><br />
+              <label for="select-submission-type">Submission Type</label><br />
+              <select id="select-submission-type">
+                <option selectedvalue="Online">Online</option></select
+              ><br /><br />
 
-            <input
-              type="checkbox"
-              value="MEDIA RECORDIGNS"
-              name="check-online-entry"
-              id="chkbox-media"
-            />
-            <label for="chkbox-media">Media Recordings</label><br />
+              <label>Online Entry Options</label>
+              <br />
+              <input
+                type="checkbox"
+                value="TEXT ENTRY"
+                name="check-online-entry"
+                id="chkbox-txt-entry"
+              />
+              <label for="chkbox-txt-entry">Text Entry</label><br />
 
-            <input
-              type="checkbox"
-              value="STUDENT ANNOTATION"
-              name="check-online-entry"
-              id="chkbox-annotation"
-            />
-            <label for="chkbox-annotation">Student Annotation</label><br />
+              <input
+                type="checkbox"
+                value="WEBSITE URL"
+                name="check-online-entry"
+                id="chkbox-website"
+              />
+              <label for="chkbox-website">Website URL</label><br />
 
-            <input
-              type="checkbox"
-              value="FILE UPLOADS"
-              name="check-online-entry"
-              id="chkbox-file"
-            />
-            <label for="chkbox-file">File Uploads</label><br /><br />
-          </form>
+              <input
+                type="checkbox"
+                value="MEDIA RECORDIGNS"
+                name="check-online-entry"
+                id="chkbox-media"
+              />
+              <label for="chkbox-media">Media Recordings</label><br />
 
-          <label for="text-fields-assign-to">Assign<br />Assign to<br /></label>
-          <form id="textarea">
-            <input id="text-fields-assign-to" value="Everyone" /><br /><br />
+              <input
+                type="checkbox"
+                value="STUDENT ANNOTATION"
+                name="check-online-entry"
+                id="chkbox-annotation"
+              />
+              <label for="chkbox-annotation">Student Annotation</label><br />
 
-            <label for="text-fields-due">Due</label><br />
-            <input
-              type="date"
-              id="text-fields-due"
-              value="2021-01-01"
-            /><br /><br />
+              <input
+                type="checkbox"
+                value="FILE UPLOADS"
+                name="check-online-entry"
+                id="chkbox-file"
+              />
+              <label for="chkbox-file">File Uploads</label><br /><br />
+            </form>
 
-            <label for="text-fields-available-from">Available from</label><br />
-            <input
-              type="date"
-              id="text-fields-available-from"
-              value="2021-01-01"
-            /><br /><br />
+            <label for="text-fields-assign-to"
+              >Assign<br />Assign to<br
+            /></label>
+            <form id="textarea">
+              <input id="text-fields-assign-to" value="Everyone" /><br /><br />
 
-            <label for="text-fields-until">Until</label><br />
-            <input
-              type="date"
-              id="text-fields-until"
-              value="2021-01-01"
-            /><br /><br />
+              <label for="text-fields-due">Due</label><br />
+              <input
+                type="date"
+                id="text-fields-due"
+                value="2021-01-01"
+              /><br /><br />
 
-            <button type="button">Cancel</button>
-            <button type="button">Save</button>
-          </form>
+              <label for="text-fields-available-from">Available from</label
+              ><br />
+              <input
+                type="date"
+                id="text-fields-available-from"
+                value="2021-01-01"
+              /><br /><br />
+
+              <label for="text-fields-until">Until</label><br />
+              <input
+                type="date"
+                id="text-fields-until"
+                value="2021-01-01"
+              /><br /><br />
+            </form>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+              <button>Cancel</button>
+            </a>
+            <a href="/Kanbas/Courses/Assignments/screen.html">
+              <button>Save</button>
+            </a>
+          </td>
         </tr>
       </tbody>
     </table>
