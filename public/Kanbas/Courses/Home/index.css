@@ -174,15 +174,12 @@
 }
 .breadcrumb-bar-style {
   color: rgb(193, 10, 10);
-  position: sticky;
+  position: absolute;
   left: 100px;
   margin-top: 25px;
 }
 .navbar-title-style {
   color: white;
-position: absolute;
-left: 0px;
-right: 0px;
 }
 .navbar-collapse-style {
   padding: 0px !important;
@@ -209,4 +206,23 @@ right: 0px;
   position: absolute !important;
   left: 0px !important;
   background-color: transparent !important;
+}
+.small-grey-course-status-text {
+  font-size: 11.5px;
+  padding-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.small-red-course-status-text {
+  font-size: 11.5px;
+  padding-left: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.red-course-status-text{
+color: rgb(193, 10, 10); font-size: 14px;
 }
