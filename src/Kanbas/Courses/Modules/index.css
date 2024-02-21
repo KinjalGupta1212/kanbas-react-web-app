@@ -214,14 +214,6 @@
   top: 40px;
   margin-top: 39px;
 }
-.breadcrumb-courses-nav-hr-style {
-  width: 10000px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 32px;
-}
 
 .breadcrumb-course-link-style {
   color: rgb(193, 10, 10) !important;
@@ -235,8 +227,8 @@
 }
 .breadcrumb-nav-style {
   --bs-breadcrumb-divider: ">" !important;
-  position: absolute !important;
-  left: 150px !important;
+  /* position: absolute !important;
+  left: 150px !important; */
 }
 
 .margin-top-20 {
@@ -279,8 +271,8 @@
 }
 .breadcrumb-bar-style {
   color: rgb(193, 10, 10);
-  position: absolute;
-  left: 100px;
+  /* position: absolute;
+  left: 100px; */
   margin-top: 25px;
 }
 .navbar-title-style {
