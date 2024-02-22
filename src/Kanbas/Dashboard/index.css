@@ -2,6 +2,9 @@
 font-weight: bold;
 color: rgb(49, 47, 47);
 }
+.height_style{
+   height: 100vh;
+}
 .card-image-dimensions{
 max-height: 150px
 }

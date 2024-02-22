@@ -7,7 +7,8 @@ function Kanbas() {
   return (
     <div className="d-flex">
       <KanbasNavigation />
-      <div style={{width:"100%"}}
+      <div style={{ flexGrow: 1 }}
+      //style={{width:"100%"}}
       // style={{ flexGrow: 1 }}
       >
       <Routes>

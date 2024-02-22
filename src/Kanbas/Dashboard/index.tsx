@@ -10,7 +10,7 @@ function Dashboard() {
     const ellipses_icon = <RxDotsVertical className="fs-3 title-ellipsis-style" />
     const file_icon = <FaRegFileAlt className="fs-3 card-icon-style"/>
     return (
-        <div className="p-4">
+        <div className="p-4 height_style">
             <h1 className="heading-style d-none d-md-block d-lg-block d-xl-block d-xxl-block">Dashboard
             <Link to={``}> {ellipses_icon} </Link>
             </h1>              

@@ -233,8 +233,8 @@
 }
 .breadcrumb-nav-style {
   --bs-breadcrumb-divider: ">" !important;
-  /* position: absolute !important;
-  left: 150px !important; */
+  position: absolute !important;
+  left: 150px !important;
 }
 
 .margin-top-20 {
@@ -277,8 +277,8 @@
 }
 .breadcrumb-bar-style {
   color: rgb(193, 10, 10);
-  /* position: absolute;
-  left: 100px; */
+  position: absolute; /*check*/
+  left: 100px;
   margin-top: 20px;
   padding-bottom: 0px;
   padding-top: 0px;
