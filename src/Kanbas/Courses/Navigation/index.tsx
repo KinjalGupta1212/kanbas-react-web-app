@@ -21,6 +21,7 @@ function CourseNavigation() {
         </li>
       ))}
     </ul>
+
   );
 }
 export default CourseNavigation;

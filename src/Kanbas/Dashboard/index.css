@@ -22,9 +22,9 @@ float: left;
 margin-top: 10px
 }
 .txt-hidden-ellipses-overflow{
-   white-space: nowrap;
-   overflow: hidden;
-   text-overflow: ellipsis;
+   white-space: nowrap !important;
+   overflow: hidden !important;
+   text-overflow: ellipsis !important;
 }
 .card-title-style{
 text-decoration: none;  

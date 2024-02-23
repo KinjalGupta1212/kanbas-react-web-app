@@ -15,7 +15,7 @@ function KanbasNavigation() {
   ];
   const { pathname } = useLocation();
   return (
-  <body>
+  // <body>
     <ul className="wd-kanbas-navigation">
         <li>
         <Link to={`https://www.northeastern.edu/`}> 
@@ -28,7 +28,7 @@ function KanbasNavigation() {
         </li>
       ))}
     </ul>
-    </body>
+    // </body>
   );
 }
 export default KanbasNavigation;

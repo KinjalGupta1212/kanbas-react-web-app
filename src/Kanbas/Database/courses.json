@@ -24,9 +24,9 @@
     },
 
     {
-        "_id": "4500",
+        "_id": "4550",
         "name": "CS4550 30083 Web Development SEC 01 Spring 2024 [BOST-1-TR]",
-        "number": "CS4500",
+        "number": "CS4550",
         "course_addr": "CS4550.30083.202430",
         "short_desc": "202430_1 Spring 2024 Semester Full Term",
         "startDate": "2023-01-10",
