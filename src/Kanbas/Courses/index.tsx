@@ -34,7 +34,7 @@ function Courses() {
 
   const chevronCollapseLinks = [
     { label: "Home", icon: <FaHome className="navbar-icon-style fs-3" /> },
-    { label: "Modules", icon: <FaCircleNotch className="navbar-icon-style wd-color fs-3" /> },
+    { label: "Modules", icon: <FaCircleNotch className="navbar-icon-style fs-3" /> },
     { label: "Piazza", icon: <FaPlug className="navbar-icon-style fs-3" /> },
     { label: "Zoom", icon: <FaPlug className="navbar-icon-style fs-3" /> },
     { label: "Assignments", icon: <FaRegStickyNote className="navbar-icon-style fs-3" /> },
