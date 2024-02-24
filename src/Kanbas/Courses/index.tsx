@@ -36,7 +36,7 @@ function Courses() {
     { label: "Home", icon: <FaHome className="navbar-icon-style fs-3" /> },
     { label: "Modules", icon: <FaCircleNotch className="navbar-icon-style wd-color fs-3" /> },
     { label: "Piazza", icon: <FaPlug className="navbar-icon-style fs-3" /> },
-    { label: "Zoom Meetings", icon: <FaPlug className="navbar-icon-style fs-3" /> },
+    { label: "Zoom", icon: <FaPlug className="navbar-icon-style fs-3" /> },
     { label: "Assignments", icon: <FaRegStickyNote className="navbar-icon-style fs-3" /> },
     { label: "Quizzes", icon: <FaRocket className="navbar-icon-styles fs-3" /> },
     { label: "Grades", icon: <FaRegCheckSquare className="navbar-icon-style fs-3" /> },
@@ -56,7 +56,7 @@ function Courses() {
 
   return (
 
-    <div style={{ height: "100vh" }}>
+    <div className="height-100-vh">
 
       {/* navbar */}
       <div className="d-block d-md-none text-center navbar-title-style center">
@@ -133,27 +133,27 @@ function Courses() {
       </nav>
 
       {/* breadcrumb hr line */}
-      <div style={{ marginTop: "70px" }}>
+      <div className="margin-top-70">
         <hr className="d-none d-md-block" />
       </div>
 
       <div className="d-none d-md-block">
-      <button
-        type="button"
-        className="btn modules-buttons-styles student-view-button-style"
-      >
-        <FaGlasses className="padding-right-10 fs-2" />Student View
-      </button>
-    </div>
+        <button
+          type="button"
+          className="btn modules-buttons-styles student-view-button-style"
+        >
+          <FaGlasses className="padding-right-10 fs-2" />Student View
+        </button>
+      </div>
 
       <div className="flex-row-structure">
         {/* course navigation */}
-        <div className="d-none d-md-block" style={{ marginTop: "15px", marginLeft: "80px" }}>
+        <div className="d-none d-md-block course-nav-positioning">
           <CourseNavigation />
         </div>
 
 
-        <div className="flex-fill" style={{ marginRight: "50px", marginLeft: "50px", marginTop: "10px" }}>
+        <div className="flex-fill path-element-display">
           <Routes>
             <Route path="/" element={<Navigate to="Home" />} />
             <Route path="Home" element={<Home />} />

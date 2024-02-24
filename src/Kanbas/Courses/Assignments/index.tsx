@@ -12,30 +12,29 @@ function Assignments() {
         <>
             {/* Buttons */}
             <div>
-                <div className="float-left">
-                    <input type="textbox"
-                        className="form-control"
-                        id="input1"
-                        placeholder="Search For Assignment">
-                    </input>
+                <div className="flex-row-structure flex-fill margin-0">
+                    <div className="float-left">
+                        <input type="textbox"
+                            className="form-control"
+                            id="input1"
+                            placeholder="Search For Assignment">
+                        </input>
+                    </div>
+
+                    <div className="float-right assignments-float-right-buttons">
+                        <button type="button" className="btn modules-buttons-styles">
+                            + Group
+                        </button>
+
+                        <button type="button" className="btn modules-module-button-style">
+                            + Assignment
+                        </button>
+
+                        <button type="button" className="btn modules-publish-button-style">
+                            <FaEllipsisV className="fa fa-ellipsis-v" />
+                        </button>
+                    </div>
                 </div>
-
-                <div className="float-right">
-                    <button type="button" className="btn modules-buttons-styles">
-                        + Group
-                    </button>
-
-                    <button type="button" className="btn modules-module-button-style">
-                        + Module
-                    </button>
-
-                    <button type="button" className="btn modules-publish-button-style">
-                        <FaEllipsisV className="fa fa-ellipsis-v" />
-                    </button>
-                </div>
-
-
-                <br />
 
                 <hr className="courses-column-hr-style" />
 
@@ -48,7 +47,9 @@ function Assignments() {
 
                             <span className="list-group-title-style">ASSIGNMENTS</span>
                             <span className="float-end">
-                                <FaCheckCircle className="text-success" />
+                                <span className="assignments-percent-display">40% of Total</span>
+
+                                <FaCheckCircle className="text-success fs-3 padding-left-10" />
                                 <FaCaretDown className="left-padding-0" />
                                 <FaPlus className="ms-2" />
                                 <FaEllipsisV className="ms-2" />
@@ -60,7 +61,7 @@ function Assignments() {
                                 <li className="list-group-item top-bottom-padding-10">
                                     <FaEllipsisV className="no-right-padding-margin" />
                                     <FaEllipsisV className="no-left-padding-margin" />
-                                    <FaRegFileAlt className="text-success fs-3" style={{ paddingLeft: "15px" }} />
+                                    <FaRegFileAlt className="text-success fs-3 padding-left-15" />
                                     <Link className="assignment-item-style"
                                         to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}>{assignment.title}
                                     </Link>

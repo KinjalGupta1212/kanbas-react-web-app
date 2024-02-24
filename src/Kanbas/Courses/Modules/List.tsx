@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "../../Courses/index.css";
 
 import { modules } from "../../Database";
-import { FaEllipsisV, FaCheckCircle, FaPlusCircle, FaCaretDown, FaRegPlusSquare, FaPlus, FaLink, FaExternalLinkAlt } from "react-icons/fa";
+import { FaEllipsisV, FaCheckCircle, FaPlusCircle, FaCaretDown, FaRegPlusSquare, FaPlus, FaLink, FaExternalLinkAlt, FaRegCheckCircle } from "react-icons/fa";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 function ModuleList() {
@@ -24,8 +24,8 @@ function ModuleList() {
           </button>
 
           <button type="button" className="btn modules-publish-button-style">
-            <FaCheckCircle
-              className="modules-publish-button-icon-style"
+            <FaRegCheckCircle
+              className="modules-publish-button-icon-style fs-5"
             />
             Publish All<FaCaretDown className="fa fa-caret-down publish-all-button-icon-style"
             />
@@ -53,24 +53,24 @@ function ModuleList() {
                 <FaEllipsisV className="no-right-padding-margin" />
                 <FaEllipsisV className="no-left-padding-margin" />
                 <FaCaretDown className="no-left-padding-margin me-2" />
-               
-                <span  className="list-group-title-style">{module.name}</span> 
-                <span  className="float-end">
+
+                <span className="list-group-title-style">{module.name}</span>
+                <span className="float-end">
                   <FaCheckCircle className="text-success" />
                   <FaCaretDown className="left-padding-0" />
                   <FaPlus className="ms-2" />
                   <FaEllipsisV className="ms-2" />
                 </span>
-                </div>
+              </div>
 
               {selectedModule._id === module._id && (
                 <ul className="list-group">
                   {module.lessons?.map((lesson, index) => (
                     <li className="list-group-item top-bottom-padding-10" key={index}>
                       {lesson.type === "external" ?
-                        <><FaLink className="no-left-padding-margin" /> 
-                        <Link to={``} className="list-group-slide-item-style"> {lesson.name} </Link> 
-                        <FaExternalLinkAlt className="link-icon-style" /></>
+                        <><FaLink className="no-left-padding-margin" />
+                          <Link to={``} className="list-group-slide-item-style"> {lesson.name} </Link>
+                          <FaExternalLinkAlt className="link-icon-style" /></>
                         : <> <FaEllipsisV className="me-2" /> {lesson.name} </>}
                       <span className="float-end">
                         <FaCheckCircle className="text-success" />

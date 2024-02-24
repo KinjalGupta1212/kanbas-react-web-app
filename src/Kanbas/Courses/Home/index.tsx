@@ -23,7 +23,7 @@ function Home() {
             <div className="flex-grow-1">
                 <ModuleList />
             </div>
-            <div className="flex-grow-0 me-2 d-none d-lg-block" style={{ width: "300px", marginLeft: "40px", marginRight: "40px" }}>
+            <div className="flex-grow-0 me-2 d-none d-lg-block course-status-whole-section">
                 <div className="font-20">Course Status</div>
 
                 {/* Unpublish/Publish Button */}
