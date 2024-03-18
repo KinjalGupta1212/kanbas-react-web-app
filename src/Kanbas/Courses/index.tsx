@@ -12,7 +12,7 @@ import "bootstrap/js/src/collapse.js";
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const path = useLocation();
   const pathSplit = path.pathname.split('/');
   const lastPathItem = decodeURI(pathSplit[pathSplit.length - 1]);

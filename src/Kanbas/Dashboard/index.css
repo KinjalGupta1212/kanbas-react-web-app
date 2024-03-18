@@ -67,3 +67,40 @@
 .card-text-style {
    font-size: 12px
 }
+
+.dashboard-button-style {
+   padding: 4px !important;
+   background-color: rgb(235, 232, 232) !important;
+   border: 1px !important;
+   border-color: gray !important;
+   border-style: solid !important;
+   color: rgb(74, 72, 72) !important;
+   margin-top: 8px
+}
+
+.margin-right-10 {
+   margin-right: 10px
+}
+
+.margin-top-30 {
+   margin-top: 30px
+}
+
+.form-title-style {
+   font-weight: bold;
+}
+
+.form-input-label-style {
+   color: rgb(193, 10, 10);
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.icon-button {
+   background-color: transparent !important;
+   border: 0px;
+ }
+
+ .margin-right-30 {
+   margin-right: 30px
+}

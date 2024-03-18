@@ -61,6 +61,7 @@
   border-color: gray !important;
   border-style: solid !important;
   color: rgb(74, 72, 72) !important;
+  margin-right: 3px;
 }
 
 .modules-publish-button-style {
@@ -73,6 +74,7 @@
   border-color: gray !important;
   border-style: solid !important;
   color: rgb(74, 72, 72) !important;
+  margin-right: 3px;
 }
 
 .modules-publish-button-icon-style {
@@ -88,6 +90,7 @@
   border-color: gray !important;
   border-style: solid !important;
   color: white !important;
+  margin-right: 3px;
 }
 
 .list-group-header-style {
@@ -498,4 +501,12 @@
 
 .height-100-vh {
   height: 100vh;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.transparent-background-button {
+  background-color: transparent !important;
 }
