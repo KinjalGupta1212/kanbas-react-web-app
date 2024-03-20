@@ -4,14 +4,14 @@ import TodoItem from "./TodoItem";
 import { useSelector } from "react-redux";
 import { LabState } from "../../../store";
 function TodoList() {
-    const { todos } = useSelector((state: LabState) => state.todosReducer);
+  const { todos } = useSelector((state: LabState) => state.todosReducer);
   return (
     <div>
       <h2>Todo List</h2>
       <ul className="list-group">
-      <TodoForm/>
+        <TodoForm />
         {todos.map((todo) => (
-            <TodoItem todo={todo} />
+          <TodoItem todo={todo} />
         ))}
       </ul>
     </div>

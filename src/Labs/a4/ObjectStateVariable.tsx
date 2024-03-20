@@ -11,8 +11,10 @@ function ObjectStateVariable() {
       />
       <input
         value={person.age}
-        onChange={(e) => setPerson({ ...person,
-                                     age: parseInt(e.target.value) })}
+        onChange={(e) => setPerson({
+          ...person,
+          age: parseInt(e.target.value)
+        })}
       />
     </div>
   );

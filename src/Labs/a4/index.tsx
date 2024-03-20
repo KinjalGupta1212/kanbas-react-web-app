@@ -18,22 +18,22 @@ const Assignment4 = () => {
     alert("Hello");
   }
 
-  return(
+  return (
     <>
       <h1>Assignment 4</h1>
-      <ClickEvent/>
-      <PassingDataOnEvent/>
+      <ClickEvent />
+      <PassingDataOnEvent />
       <PassingFunctions theFunction={sayHello} />
-      <EventObject/>
-      <Counter/>
-      <BooleanStateVariables/>
-      <StringStateVariables/>
-      <DateStateVariable/>
-      <ObjectStateVariable/>
-      <ArrayStateVariable/>
-      <ParentStateComponent/>
-      <ReduxExamples/>
-      <TodoList/>
+      <EventObject />
+      <Counter />
+      <BooleanStateVariables />
+      <StringStateVariables />
+      <DateStateVariable />
+      <ObjectStateVariable />
+      <ArrayStateVariable />
+      <ParentStateComponent />
+      <ReduxExamples />
+      <TodoList />
     </>
   );
 };

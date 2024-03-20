@@ -47,7 +47,7 @@ function ModuleList() {
             />
           </button>
 
-          <button type="button" className="btn modules-module-button-style">
+          <button type="button" className="btn modules-module-button-style" onClick={() => dispatch(addModule({ ...module, course: courseId }))}>
             + Module
           </button>
 

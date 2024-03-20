@@ -76,20 +76,6 @@ function Dashboard(
                                     <div className="card-text">{course.course_addr}</div>
                                     <div className="card-text card-text-style">{course.short_desc}</div>
                                     <Link to={`/Kanbas/Courses/${course._id}/Home`}> {file_icon} </Link>
-                                    {/* <button type="button" className="btn dashboard-button-style margin-right-10"
-                                        onClick={(event) => {
-                                            event.preventDefault();
-                                            setCourse(course);
-                                        }}>
-                                        Edit
-                                    </button>
-                                    <button type="button" className="btn dashboard-button-style" onClick={(event) => {
-                                        event.preventDefault();
-                                        deleteCourse(course._id);
-                                    }}>
-                                        Delete
-                                    </button> */}
-
                                     <button type="button" className="icon-button"
                                         onClick={(event) => {
                                             event.preventDefault();
